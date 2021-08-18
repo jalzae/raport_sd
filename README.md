@@ -1,56 +1,31 @@
-# CodeIgniter 4 Framework
+# Raport SD
 
-## What is CodeIgniter?
+## What is Raport SD??
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+Program raport ini ditujukan untuk digunakan oleh wali kelas. Program ini akan membantu wali kelas agar dapat efisien:
+1.Merekap nilai harian siswa
+2.Merekap semua nilai ujian
+3.OTomatis membuat rata2 nilai dari hasil inputan
+4.Menyediakan beberapa hasil laporan untuk keperluan wali kelas
 
-This repository holds the distributable version of the framework,
-including the user guide. It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## Feature
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+1.Dinamisasi Mata Pelajaran,Type KD, dan Muatan dari KD tiap mapel
+2.Export Menjadi Excel sehingga memudahkan export data
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+## How to USE??
 
+1.Download this repository
+2.Put SQL in phpmyadmin or mysql manager
+3.Run Apache server
+Note:Make sure your php version is above 7.3 with intl and mbstring is activated
 
-## Important Change with index.php
+## Licence
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+1.This tools not for sale
+2.We curse you who sell this tools
+3.You can contact us For Train or Upgraded this tools
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+## Regard
 
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use Github issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 7.3 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
+## Creator
